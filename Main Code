@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Talib Dairy Farm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🐄 Talib Dairy Farm</h1>
+    <p>Pure & Fresh Milk Direct From Farm</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+    <h2>Healthy Cows, Healthy Milk</h2>
+    <p>100% Natural • No Chemicals • Daily Fresh Supply</p>
+    <button onclick="orderNow()">Order on WhatsApp</button>
+</section>
+
+<section id="about">
+    <h2>About Our Dairy</h2>
+    <p>
+        Talib Dairy Farm provides fresh and hygienic milk.
+        Hamare animals healthy aur natural feeding pe hote hain.
+        Daily cleaning aur proper care rakhi jati hai.
+    </p>
+</section>
+
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="product-box">
+        <div class="product">🥛 Fresh Milk</div>
+        <div class="product">🍶 Dahi (Curd)</div>
+        <div class="product">🧈 Desi Ghee</div>
+        <div class="product">🧀 Paneer</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="number" id="phone" placeholder="Mobile Number">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p id="error"></p>
+</section>
+
+<footer>
+    <p>© 2026 Talib Dairy Farm | Samba, J&K</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
